@@ -101,20 +101,33 @@ p {
 	clear:both;
 }
 footer {
-	background-color: blue;
+	background-color: yellow;
 }
 .foot {
-	margin:40px;
-	color: white;
+	color: blue;
+	float: left;
+}
+.footer:after {
+	content: "";
+	display: table;
+}
+.footer:after {
+	clear:both;
+}
+.icons {
+	float: right;
 }
 .mid {
 	text-align: center;
 }
-
+.wrapper {
+	width:1200px;
+	margin: 0 auto;
+}
 
 /*No float*/
 
-.rightcolx {
+/*.rightcolx {
 	display: inline-block;
 	height: 200px;
 	vertical-align: top;
@@ -153,7 +166,4 @@ footer {
 .parentx {
 	background: blue;	
 } 
-.wrapper {
-	width:1200px;
-	margin: 0 auto;
-}
+*/
